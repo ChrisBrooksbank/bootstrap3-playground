@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap3-playground",
+  "homepage": "https://github.com/ChrisBrooksbank/bootstrap3-playground",
+  "authors": [
+    "chris brooksbank <chrisbrooksbank@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
