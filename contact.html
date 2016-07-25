@@ -5,10 +5,49 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>BootStrap 3 Playground</title>
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="site.css">
 	</head>
 	<body>
-		<h1>Contact Page</h1>
-		<p>blah blah</p>
+		
+		<div id="page">
+			<header class="container">
+				<div id="menu" class="navbar navbar-default navbar-fixed-top">
+					<div class="navbar-header">
+						<button href="." class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="glyphicon glyphicon-chevron-down"></span></button>
+						<div id="logo">
+							<a href="."><h4>The Playground</h4></a>
+						</div>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="nav"><a href="index.html">Home</a></li>
+							<li class="nav"><a href="about.html">About</a></li>
+							<li class="nav active"><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</header>
+			<section id="body" class="container">
+				<div class="row hidden-xs">
+					<img src="Carousel1.png" alt="carousel image 1" class="col-md-2 col-md-offset-1 img-thumbnail">
+					<img src="Carousel2.jpg" alt="carousel image 2" class="col-md-2 img-thumbnail">
+					<img src="Carousel3.jpg" alt="carousel image 3" class="col-md-2 img-thumbnail">
+					<img src="carousel4.gif" alt="carousel image 4" class="col-md-2 img-thumbnail">
+					<img src="Carousel5.jpg" alt="carousel image 5" class="col-md-2 img-thumbnail">
+				</div>
+				<section id="main" class="col-md-8 col-sm-10">
+				  <h1>Contact Information</h1>
+				  <p>Chris Brooksbank</p>
+				</section>
+			</section>
+			<hr />
+			<footer class="container">
+				<p>Text placeholders courtesy of someone else</p>
+			</footer>
+			
+		</div>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	</body>
 </html>
