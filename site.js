@@ -13,6 +13,8 @@
    		*/
 	});
 
+	$('#theCarousel').carousel();
+
 
 
 })();
